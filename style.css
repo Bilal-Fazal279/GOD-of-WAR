@@ -1,0 +1,404 @@
+
+        .header {
+            position: absolute;
+            width: 1920px;
+            height: 759px;
+            left: 0px;
+            top: 0px;
+
+            background: url("image 2.png");
+
+        }
+
+        .logo {
+            position: absolute;
+            width: 58px;
+            height: 59px;
+            left: 345px;
+            top: 30px;
+        }
+
+        li {
+            position: absolute;
+            width: 157px;
+            height: 19px;
+            left: 617px;
+            top: 49px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+        }
+
+
+        .nav-bar {
+            position: absolute;
+            width: 1920px;
+            height: 119px;
+            left: 0px;
+            top: -4px;
+            background: linear-gradient(114deg, #02020726 0%, #00000059 100%);
+
+
+            background: linear-gradient();
+        }
+
+        .Store {
+            position: absolute;
+            width: 67px;
+            height: 19px;
+            left: 523px;
+            top: 49px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+        }
+
+        .PerguntasFrequentes {
+            position: absolute;
+            width: 161px;
+            height: 19px;
+            left: 617px;
+            top: 49px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+        }
+
+        .UnrealEngine {
+            position: absolute;
+            width: 115px;
+            height: 19px;
+            left: 927px;
+            top: 50px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+        }
+
+        .arrow1 {
+            position: absolute;
+            left: 29.7%;
+            right: 26.22%;
+            top: 28.72%;
+            bottom: 31.61%;
+            font-size: 37px;
+
+
+        }
+
+        .arrow2 {
+            position: absolute;
+            left: 39.8%;
+            right: 26.22%;
+            top: 29.72%;
+            bottom: 31.61%;
+            font-size: 37px;
+
+
+        }
+
+        .Ajuda {
+            position: absolute;
+            width: 63px;
+            height: 19px;
+            left: 830px;
+            top: 49px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+        }
+
+        .arrow3 {
+            position: absolute;
+            left: 45.8%;
+            right: 26.22%;
+            top: 27.72%;
+            bottom: 31.61%;
+            font-size: 37px;
+
+
+        }
+
+        .arrow4 {
+
+            position: absolute;
+            font-size: 37px;
+            left: 57.8%;
+            right: 26.22%;
+            top: 28.72%;
+            width: 0px;
+            height: 2px;
+            bottom: 31.61%;
+
+
+        }
+
+        .Supote {
+            position: absolute;
+            width: 69px;
+            height: 19px;
+            left: 1053px;
+            top: 49px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+
+        .box1 {
+            box-sizing: content-box;
+
+            position: absolute;
+            width: 144px;
+            height: 48px;
+            left: 1258px;
+            top: 35px;
+
+            border: 1px solid #FFFFFF;
+            border-radius: 4px;
+        }
+
+        .box2 {
+            position: absolute;
+            width: 144px;
+            height: 48px;
+            left: 1423px;
+            top: 35px;
+            background: #2681FF;
+            ;
+            border-radius: 4px;
+        }
+
+        .Iniciarsessao {
+            position: absolute;
+            width: 82px;
+            height: 15px;
+            left: 48px;
+            top: 3px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+
+            color: #FFFFFF;
+        }
+
+        .BaixarEpicGames {
+            position: absolute;
+            width: 109px;
+            height: 15px;
+            left: 30px;
+            top: 6px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            color: #FFFFFF;
+        }
+
+        .vector {
+            position: absolute;
+            top: 20px;
+            left: 22px;
+
+        }
+
+        .vector1 {
+            position: absolute;
+            top: 17px;
+            left: 26px;
+        }
+
+        .vector2 {
+            position: absolute;
+            top: 17px;
+            left: 14px;
+
+        }
+
+        .vector3 {
+            position: absolute;
+            top: 22px;
+            left: 10px;
+        }
+
+        .rect1 {
+            position: absolute;
+            width: 990px;
+            height: 646px;
+            left: 0px;
+            top: 137px;
+
+            background: linear-gradient();
+
+        }
+
+        .image3 {
+            position: absolute;
+            width: 449px;
+            height: 110px;
+            left: 351px;
+            top: 110px;
+
+        }
+
+        .content {
+            position: absolute;
+            width: 523px;
+            height: 96px;
+            left: 358px;
+            top: 201px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(255, 255, 255, 0.8);
+
+        }
+
+        .frame3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 14px 24px;
+            position: absolute;
+            width: 246px;
+            height: 34px;
+            left: 358px;
+            top: 383px;
+            background: #2681FF;
+            mix-blend-mode: normal;
+            border-radius: 4px;
+
+        }
+
+        .Comprenaprévenda {
+            width: 235px;
+            height: 24px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #EDEEF2;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+        }
+
+        .line8 {
+            position: absolute;
+            width: 1920px;
+            height: 0px;
+            left: 0px;
+            top: 107px;
+
+            border: 1px solid rgba(255, 255, 255, 0.32);
+        }
+
+        .arrow-right {
+            position: absolute;
+            left: 74.98%;
+            right: -24.96%;
+            top: 36.02%;
+            font-size: 46px;
+            bottom: -25.06%;
+            width: 36px;
+            transform: rotate(1deg);
+        }
+
+        .line5 {
+            position: absolute;
+            width: 7px;
+            height: 0px;
+            left: 670px;
+            top: 417px;
+            border: 1px solid #FFFFFF;
+
+        }
+
+        .line4 {
+            position: absolute;
+            width: 7px;
+            height: 0px;
+            left: 670px;
+            top: 417px;
+            border: 1px solid #FFFFFF;
+            transform: rotate(90deg);
+        }
+
+        .Ellipse1 {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            left: 667px;
+            top: 411px;
+        }
+
+
+
+
+        .ParaaListadeDesejos {
+            position: absolute;
+            width: 168px;
+            height: 30px;
+            left: 711px;
+            top: 405px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 30px;
+            color: rgba(255, 255, 255, 0.8);
+        }
