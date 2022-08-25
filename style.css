@@ -1,404 +1,2573 @@
+body {
+    position: relative;
+    width: 1920px;
+    height: 3575px;
+
+    background: linear-gradient(107.56deg, #03000F 0%, #020009 100%);
+}
+
+.header {
+    position: absolute;
+    width: 1920px;
+    height: 759px;
+    left: 0px;
+    top: 0px;
+
+    background: url("image 2.png");
+}
+
+.logo1 {
+    position: absolute;
+    width: 58px;
+    height: 59px;
+    left: 345px;
+    top: 30px;
+}
+
+li {
+    position: absolute;
+    width: 157px;
+    height: 19px;
+    left: 617px;
+    top: 49px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+
+.nav-bar {
+    position: absolute;
+    width: 1920px;
+    height: 119px;
+    left: 0px;
+    top: -4px;
+    background: linear-gradient(114deg, #02020726 0%, #00000059 100%);
+
+
+    background: linear-gradient();
+}
+
+.Store {
+    position: absolute;
+    width: 67px;
+    height: 19px;
+    left: 523px;
+    top: 49px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.PerguntasFrequentes {
+    position: absolute;
+    width: 161px;
+    height: 19px;
+    left: 617px;
+    top: 49px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.UnrealEngine {
+    position: absolute;
+    width: 115px;
+    height: 19px;
+    left: 927px;
+    top: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
 
-        .header {
-            position: absolute;
-            width: 1920px;
-            height: 759px;
-            left: 0px;
-            top: 0px;
-
-            background: url("image 2.png");
-
-        }
-
-        .logo {
-            position: absolute;
-            width: 58px;
-            height: 59px;
-            left: 345px;
-            top: 30px;
-        }
-
-        li {
-            position: absolute;
-            width: 157px;
-            height: 19px;
-            left: 617px;
-            top: 49px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 19px;
-            /* identical to box height */
-
-
-            color: #FFFFFF;
-        }
-
-
-        .nav-bar {
-            position: absolute;
-            width: 1920px;
-            height: 119px;
-            left: 0px;
-            top: -4px;
-            background: linear-gradient(114deg, #02020726 0%, #00000059 100%);
-
-
-            background: linear-gradient();
-        }
-
-        .Store {
-            position: absolute;
-            width: 67px;
-            height: 19px;
-            left: 523px;
-            top: 49px;
-
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 19px;
-            /* identical to box height */
-
-
-            color: #FFFFFF;
-        }
-
-        .PerguntasFrequentes {
-            position: absolute;
-            width: 161px;
-            height: 19px;
-            left: 617px;
-            top: 49px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 19px;
-            /* identical to box height */
-
-
-            color: #FFFFFF;
-        }
-
-        .UnrealEngine {
-            position: absolute;
-            width: 115px;
-            height: 19px;
-            left: 927px;
-            top: 50px;
-
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 19px;
-            /* identical to box height */
-
-
-            color: #FFFFFF;
-        }
 
-        .arrow1 {
-            position: absolute;
-            left: 29.7%;
-            right: 26.22%;
-            top: 28.72%;
-            bottom: 31.61%;
-            font-size: 37px;
-
-
-        }
-
-        .arrow2 {
-            position: absolute;
-            left: 39.8%;
-            right: 26.22%;
-            top: 29.72%;
-            bottom: 31.61%;
-            font-size: 37px;
-
-
-        }
-
-        .Ajuda {
-            position: absolute;
-            width: 63px;
-            height: 19px;
-            left: 830px;
-            top: 49px;
-
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 19px;
-            /* identical to box height */
-
-
-            color: #FFFFFF;
-        }
-
-        .arrow3 {
-            position: absolute;
-            left: 45.8%;
-            right: 26.22%;
-            top: 27.72%;
-            bottom: 31.61%;
-            font-size: 37px;
-
-
-        }
-
-        .arrow4 {
-
-            position: absolute;
-            font-size: 37px;
-            left: 57.8%;
-            right: 26.22%;
-            top: 28.72%;
-            width: 0px;
-            height: 2px;
-            bottom: 31.61%;
-
-
-        }
-
-        .Supote {
-            position: absolute;
-            width: 69px;
-            height: 19px;
-            left: 1053px;
-            top: 49px;
-
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 19px;
-            /* identical to box height */
-
-
-            color: #FFFFFF;
-        }
-
-        li {
-            list-style-type: none;
-        }
-
-
-        .box1 {
-            box-sizing: content-box;
-
-            position: absolute;
-            width: 144px;
-            height: 48px;
-            left: 1258px;
-            top: 35px;
-
-            border: 1px solid #FFFFFF;
-            border-radius: 4px;
-        }
-
-        .box2 {
-            position: absolute;
-            width: 144px;
-            height: 48px;
-            left: 1423px;
-            top: 35px;
-            background: #2681FF;
-            ;
-            border-radius: 4px;
-        }
-
-        .Iniciarsessao {
-            position: absolute;
-            width: 82px;
-            height: 15px;
-            left: 48px;
-            top: 3px;
-
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 13px;
-            line-height: 15px;
-
-            color: #FFFFFF;
-        }
-
-        .BaixarEpicGames {
-            position: absolute;
-            width: 109px;
-            height: 15px;
-            left: 30px;
-            top: 6px;
-
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 13px;
-            line-height: 15px;
-            color: #FFFFFF;
-        }
-
-        .vector {
-            position: absolute;
-            top: 20px;
-            left: 22px;
-
-        }
-
-        .vector1 {
-            position: absolute;
-            top: 17px;
-            left: 26px;
-        }
-
-        .vector2 {
-            position: absolute;
-            top: 17px;
-            left: 14px;
-
-        }
-
-        .vector3 {
-            position: absolute;
-            top: 22px;
-            left: 10px;
-        }
-
-        .rect1 {
-            position: absolute;
-            width: 990px;
-            height: 646px;
-            left: 0px;
-            top: 137px;
-
-            background: linear-gradient();
-
-        }
-
-        .image3 {
-            position: absolute;
-            width: 449px;
-            height: 110px;
-            left: 351px;
-            top: 110px;
-
-        }
-
-        .content {
-            position: absolute;
-            width: 523px;
-            height: 96px;
-            left: 358px;
-            top: 201px;
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 24px;
-            color: rgba(255, 255, 255, 0.8);
-
-        }
-
-        .frame3 {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            padding: 14px 24px;
-            position: absolute;
-            width: 246px;
-            height: 34px;
-            left: 358px;
-            top: 383px;
-            background: #2681FF;
-            mix-blend-mode: normal;
-            border-radius: 4px;
-
-        }
-
-        .Comprenaprévenda {
-            width: 235px;
-            height: 24px;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 24px;
-            color: #EDEEF2;
-            flex: none;
-            order: 0;
-            flex-grow: 0;
-
-        }
-
-        .line8 {
-            position: absolute;
-            width: 1920px;
-            height: 0px;
-            left: 0px;
-            top: 107px;
-
-            border: 1px solid rgba(255, 255, 255, 0.32);
-        }
-
-        .arrow-right {
-            position: absolute;
-            left: 74.98%;
-            right: -24.96%;
-            top: 36.02%;
-            font-size: 46px;
-            bottom: -25.06%;
-            width: 36px;
-            transform: rotate(1deg);
-        }
-
-        .line5 {
-            position: absolute;
-            width: 7px;
-            height: 0px;
-            left: 670px;
-            top: 417px;
-            border: 1px solid #FFFFFF;
-
-        }
-
-        .line4 {
-            position: absolute;
-            width: 7px;
-            height: 0px;
-            left: 670px;
-            top: 417px;
-            border: 1px solid #FFFFFF;
-            transform: rotate(90deg);
-        }
-
-        .Ellipse1 {
-            position: absolute;
-            width: 15px;
-            height: 15px;
-            left: 667px;
-            top: 411px;
-        }
-
-
-
-
-        .ParaaListadeDesejos {
-            position: absolute;
-            width: 168px;
-            height: 30px;
-            left: 711px;
-            top: 405px;
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 30px;
-            color: rgba(255, 255, 255, 0.8);
-        }
+    color: #FFFFFF;
+}
+
+.arrow1 {
+    position: absolute;
+    left: 29.7%;
+    right: 26.22%;
+    top: 28.72%;
+    bottom: 31.61%;
+    font-size: 37px;
+
+
+}
+
+.arrow2 {
+    position: absolute;
+    left: 39.8%;
+    right: 26.22%;
+    top: 29.72%;
+    bottom: 31.61%;
+    font-size: 37px;
+
+
+}
+
+.Ajuda {
+    position: absolute;
+    width: 63px;
+    height: 19px;
+    left: 830px;
+    top: 49px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.arrow3 {
+    position: absolute;
+    left: 45.8%;
+    right: 26.22%;
+    top: 27.72%;
+    bottom: 31.61%;
+    font-size: 37px;
+
+
+}
+
+.arrow4 {
+
+    position: absolute;
+    font-size: 37px;
+    left: 57.8%;
+    right: 26.22%;
+    top: 28.72%;
+    width: 0px;
+    height: 2px;
+    bottom: 31.61%;
+
+
+}
+
+.Supote {
+    position: absolute;
+    width: 69px;
+    height: 19px;
+    left: 1053px;
+    top: 49px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.box1 {
+    box-sizing: content-box;
+
+    position: absolute;
+    width: 144px;
+    height: 48px;
+    left: 1258px;
+    top: 35px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+.box2 {
+    position: absolute;
+    width: 144px;
+    height: 48px;
+    left: 1423px;
+    top: 35px;
+    background: #2681FF;
+    ;
+    border-radius: 4px;
+}
+
+.Iniciarsessao {
+    position: absolute;
+    width: 82px;
+    height: 15px;
+    left: 48px;
+    top: 3px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.BaixarEpicGames {
+    position: absolute;
+    width: 109px;
+    height: 15px;
+    left: 30px;
+    top: 6px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.vector {
+    position: absolute;
+    top: 20px;
+    left: 22px;
+
+}
+
+.vector1 {
+    position: absolute;
+    top: 17px;
+    left: 26px;
+}
+
+.vector2 {
+    position: absolute;
+    top: 17px;
+    left: 14px;
+
+}
+
+.vector3 {
+    position: absolute;
+    top: 22px;
+    left: 10px;
+}
+
+.rect1 {
+    position: absolute;
+    width: 990px;
+    height: 646px;
+    left: 0px;
+    top: 137px;
+
+    background: linear-gradient();
+
+}
+
+.image3 {
+    position: absolute;
+    width: 449px;
+    height: 110px;
+    left: 351px;
+    top: 110px;
+
+}
+
+.content {
+    position: absolute;
+    width: 523px;
+    height: 96px;
+    left: 358px;
+    top: 201px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+.frame3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+    position: absolute;
+    width: 246px;
+    height: 34px;
+    left: 358px;
+    top: 383px;
+    background: #2681FF;
+    mix-blend-mode: normal;
+    border-radius: 4px;
+
+}
+
+.Comprenaprévenda {
+    width: 235px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EDEEF2;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.line8 {
+    position: absolute;
+    width: 1920px;
+    height: 0px;
+    left: 0px;
+    top: 107px;
+
+    border: 1px solid rgba(255, 255, 255, 0.32);
+}
+
+.arrow-right {
+    position: absolute;
+    left: 74.98%;
+    right: -24.96%;
+    top: 36.02%;
+    font-size: 46px;
+    bottom: -25.06%;
+    width: 36px;
+    transform: rotate(1deg);
+}
+
+.line5 {
+    position: absolute;
+    width: 7px;
+    height: 0px;
+    left: 670px;
+    top: 417px;
+    border: 1px solid #FFFFFF;
+
+}
+
+.line4 {
+    position: absolute;
+    width: 7px;
+    height: 0px;
+    left: 670px;
+    top: 417px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.Ellipse1 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 667px;
+    top: 411px;
+}
+
+.ParaaListadeDesejos {
+    position: absolute;
+    width: 168px;
+    height: 30px;
+    left: 711px;
+    top: 405px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.Jogosempromoção {
+    position: absolute;
+    width: 166px;
+    height: 80px;
+    left: 380px;
+    top: 799px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 125% */
+    color: #FFFFFF;
+}
+
+.Novoslançamentos {
+    position: absolute;
+    width: 149px;
+    height: 30px;
+    left: 698px;
+    top: 823px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: #FFFFFF;
+    opacity: 0.72;
+}
+
+.Maisvendidos {
+    position: absolute;
+    width: 109px;
+    height: 30px;
+    left: 947px;
+    top: 824px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: #FFFFFF;
+    opacity: 0.72;
+}
+
+.Embreve {
+    position: absolute;
+    width: 71px;
+    height: 30px;
+    left: 1156px;
+    top: 824px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: #FFFFFF;
+    opacity: 0.72;
+}
+
+.Jogosempromoção_hr {
+    position: absolute;
+    width: 159px;
+    height: 2px;
+    left: 693px;
+    top: 854px;
+    background: #2681FF;
+    box-shadow: 0px 0px 10px rgba(38, 129, 255, 0.35);
+}
+
+.Descubramaisofertas {
+    position: absolute;
+    width: 173px;
+    height: 27px;
+    left: 1375px;
+    top: 826px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height, or 169% */
+    text-align: right;
+    color: #2681FF;
+}
+
+.arrow-right1 {
+    position: absolute;
+
+    left: 105.9%;
+    right: 36.98%;
+    top: 29.14%;
+    bottom: 28.17%;
+
+}
+
+.NaveguepelaEpic {
+    position: absolute;
+    width: 221px;
+    height: 80px;
+    left: 380px;
+    top: 1657px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 125% */
+
+
+    color: #FFFFFF;
+}
+
+.NaveguepelaEpic_hr {
+    position: absolute;
+    width: 189px;
+    height: 2px;
+    left: 772px;
+    top: 1709px;
+    background: #2681FF;
+    box-shadow: 0px 0px 10px rgba(38, 129, 255, 0.35);
+}
+
+.Atualizadorecentemente {
+    position: absolute;
+    width: 189px;
+    height: 30px;
+    left: 772px;
+    top: 1678px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.72;
+}
+
+.Maispopulares {
+    position: absolute;
+    width: 115px;
+    height: 30px;
+    left: 1056px;
+    top: 1678px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.72;
+}
+
+.Aindanãoconheceaepic {
+    position: absolute;
+    width: 205px;
+    height: 27px;
+    left: 1341px;
+    top: 1682px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height, or 169% */
+
+    text-align: right;
+
+    color: #2171E0;
+}
+
+/* Card1 start here */
+.card1-img {
+    position: absolute;
+    width: 176px;
+    height: 234.67px;
+    left: 352px;
+    top: 943px;
+    background: url(image.png);
+    border-radius: 5px;
+}
+
+.Return {
+    position: absolute;
+    width: 73px;
+    height: 30px;
+    left: 352px;
+    top: 1183px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    color: #FFFFFF;
+}
+
+.price1 {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 352px;
+    top: 1221px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    text-decoration-line: line-through;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.dicounted-price1 {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 352px;
+    top: 1240px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: #FFFFFF;
+}
+
+.NOVONAEPIC1 {
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 456px;
+    top: 1199px;
+    background: #202020;
+    border-radius: 1px;
+}
+
+.NOVONAEPIC1-text {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 467px;
+    top: 1187px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 30px;
+    /* identical to box height, or 429% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* card2 start here */
+.card2-img {
+    position: absolute;
+    width: 176px;
+    height: 235.05px;
+    left: 560px;
+    top: 943px;
+    background: url(image.png);
+    border-radius: 5px;
+}
+
+.Century {
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    left: 560px;
+    top: 1183px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    color: #FFFFFF;
+}
+
+.price2 {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 560px;
+    top: 1221px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    text-decoration-line: line-through;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.dicounted-price2 {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 560px;
+    top: 1240px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: #FFFFFF;
+}
+
+.NOVONAEPIC2 {
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 663px;
+    top: 1199px;
+    background: #202020;
+    border-radius: 1px;
+}
+
+.NOVONAEPIC2-text {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 674px;
+    top: 1187px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 30px;
+    /* identical to box height, or 429% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* card3 start here */
+.card3-img {
+    position: absolute;
+    width: 176px;
+    height: 235px;
+    left: 768px;
+    top: 943px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.Judas {
+    position: absolute;
+    width: 52px;
+    height: 30px;
+    left: 768px;
+    top: 1191px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    color: #FFFFFF;
+}
+
+.price3 {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 768px;
+    top: 1221px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    text-decoration-line: line-through;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.dicounted-price3 {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 768px;
+    top: 1240px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: #FFFFFF;
+}
+
+.NOVONAEPIC3 {
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 872px;
+    top: 1199px;
+    background: #202020;
+    border-radius: 1px;
+}
+
+.NOVONAEPIC3-text {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 883px;
+    top: 1187px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 30px;
+    /* identical to box height, or 429% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* card4 start here */
+.card4-img {
+    position: absolute;
+    width: 176px;
+    height: 234.67px;
+    left: 976px;
+    top: 943px;
+    background: url(image.png);
+    border-radius: 5px;
+}
+
+.Retre {
+    position: absolute;
+    width: 62px;
+    height: 30px;
+    left: 976px;
+    top: 1191px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    color: #FFFFFF;
+}
+
+.price4 {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 976px;
+    top: 1221px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    text-decoration-line: line-through;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.dicounted-price4 {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 976px;
+    top: 1240px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+}
+
+.NOVONAEPIC4 {
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 1080px;
+    top: 1199px;
+    background: #202020;
+    border-radius: 1px;
+}
+
+.NOVONAEPIC4-text {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 1091px;
+    top: 1187px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 30px;
+    /* identical to box height, or 429% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* card5 start here */
+.card5-img {
+    position: absolute;
+    width: 176px;
+    height: 235.05px;
+    left: 1184px;
+    top: 943px;
+    background: url(image.png);
+    border-radius: 5px;
+}
+
+.Chern {
+    position: absolute;
+    width: 68px;
+    height: 30px;
+    left: 1184px;
+    top: 1191px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    color: #FFFFFF;
+}
+
+.price5 {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 1184px;
+    top: 1221px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    text-decoration-line: line-through;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.dicounted-price5 {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 1184px;
+    top: 1240px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+}
+
+.NOVONAEPIC5 {
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 1288px;
+    top: 1199px;
+    background: #202020;
+    border-radius: 1px;
+}
+
+.NOVONAEPIC5-text {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 1299px;
+    top: 1187px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 30px;
+    /* identical to box height, or 429% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* card6 start here */
+.card6-img {
+    position: absolute;
+    width: 176px;
+    height: 234.24px;
+    left: 1392px;
+    top: 943px;
+    background: url(image.png);
+    border-radius: 5px;
+}
+
+.Eveon {
+    position: absolute;
+    width: 73px;
+    height: 30px;
+    left: 1392px;
+    top: 1191px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    color: #FFFFFF;
+}
+
+.price6 {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 1392px;
+    top: 1221px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    text-decoration-line: line-through;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.dicounted-price6 {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 1392px;
+    top: 1240px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: #FFFFFF;
+}
+
+.NOVONAEPIC6 {
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 1496px;
+    top: 1199px;
+    background: #202020;
+    border-radius: 1px;
+}
+
+.NOVONAEPIC6-text {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 1507px;
+    top: 1187px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 30px;
+    /* identical to box height, or 429% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* card7 start here */
+
+.card7-img {
+    position: absolute;
+    width: 386px;
+    height: 236px;
+    left: 350px;
+    top: 1357px;
+
+    background: url(image.png);
+    border-radius: 5px;
+}
+
+.title7 {
+    position: absolute;
+    width: 236px;
+    height: 30px;
+    left: 366px;
+    top: 1480px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: #FFFFFF;
+}
+
+.description7 {
+    position: absolute;
+    width: 298px;
+    height: 63px;
+    left: 366px;
+    top: 1514px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+    color: #FFFFFF;
+}
+
+/* card8 start here */
+.card8-img {
+    position: absolute;
+    width: 381px;
+    height: 236px;
+    left: 769px;
+    top: 1357px;
+    background: url(image.png);
+    border-radius: 5px;
+}
+
+.title8 {
+    position: absolute;
+    width: 107px;
+    height: 30px;
+    left: 785px;
+    top: 1480px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: #FFFFFF;
+}
+
+.description8 {
+    position: absolute;
+    width: 298px;
+    height: 42px;
+    left: 785px;
+    top: 1525px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+    color: #FFFFFF;
+}
+
+
+.card9-img {
+    position: absolute;
+    width: 381px;
+    height: 238px;
+    left: 1184px;
+    top: 1357px;
+    background: url(image.png);
+    border-radius: 5px;
+}
+
+.title9 {
+    position: absolute;
+    width: 205px;
+    height: 30px;
+    left: 1200px;
+    top: 1480px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: #FFFFFF;
+}
+
+.description9 {
+    position: absolute;
+    width: 298px;
+    height: 63px;
+    left: 1200px;
+    top: 1514px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+    color: #FFFFFF;
+}
+
+.line6 {
+    position: absolute;
+    width: 1214px;
+    height: 0px;
+    left: 352px;
+    top: 1769px;
+    border: 1px solid rgba(255, 255, 255, 0.32);
+}
+
+.card10 {
+    position: absolute;
+    width: 580px;
+    height: 182px;
+    left: 348px;
+    top: 1805px;
+
+
+    border-radius: 5px;
+    background: linear-gradient(95.77deg, #262626 0%, #1C1C1C 97.65%);
+}
+
+.card10-img {
+    position: absolute;
+    width: 145px;
+    height: 182px;
+    left: 348px;
+    top: 1805px;
+    border-radius: 5px;
+}
+
+.NOVONAEPIC10 {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 528px;
+    top: 1813px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 30px;
+    /* identical to box height, or 429% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+.Frugon {
+    position: absolute;
+    width: 55px;
+    height: 30px;
+    left: 517px;
+    top: 1857px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+}
+
+.btn-10 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 9px 2px 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 34px;
+    height: 20px;
+    left: 588px;
+    top: 1877px;
+
+    background: #2681FF;
+    box-shadow: 0px 0px 10px rgba(161, 252, 131, 0.15);
+    border-radius: 4px;
+}
+
+.price10 {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 518px;
+    top: 1887px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    text-decoration-line: line-through;
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
+
+.discounted-price10 {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 518px;
+    top: 1906px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: #FFFFFF;
+}
+
+.window10 {
+    position: absolute;
+    left: 522px;
+    right: 12.48%;
+    top: 12.5%;
+    bottom: 12.25%;
+
+}
+
+.card11-img {
+    position: absolute;
+    width: 145px;
+    height: 182px;
+    left: 348px;
+    top: 2011px;
+
+    background: url(image.png);
+    border-radius: 5px;
+}
+
+
+.NOVONAEPIC11 {
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 517px;
+    top: 2032px;
+
+    background: #202020;
+    border-radius: 1px;
+}
+
+.NOVONAEPIC11-text {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 528px;
+    top: 2019px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 30px;
+    /* identical to box height, or 429% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.window11 {
+    position: absolute;
+    left: 870px;
+
+    top: 2025px;
+
+
+}
+
+.Judas {
+    position: absolute;
+    width: 47px;
+    height: 30px;
+    left: 517px;
+    top: 2063px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: #FFFFFF;
+}
+
+.btn-11 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 9px 2px 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 34px;
+    height: 20px;
+    left: 580px;
+    top: 2082px;
+
+    background: #2681FF;
+    box-shadow: 0px 0px 10px rgba(161, 252, 131, 0.15);
+    border-radius: 4px;
+}
+
+.price11 {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 518px;
+    top: 2092px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    text-decoration-line: line-through;
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
+
+.discounted-price11 {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 518px;
+    top: 2111px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+}
+
+
+.card12-img {
+    position: absolute;
+    width: 145px;
+    height: 182px;
+    left: 350px;
+    top: 2217px;
+
+    background: url(image.png);
+    border-radius: 5px;
+}
+
+.window12 {
+    position: absolute;
+    left: 12.5%;
+    left: 870px;
+    top: 2236px;
+    bottom: 12.25%;
+}
+
+.NOVONAEPIC12 {
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 517px;
+    top: 2239px;
+
+    background: #202020;
+    border-radius: 1px;
+}
+
+.NOVONAEPIC12-text {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 528px;
+    top: 2225px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 30px;
+    /* identical to box height, or 429% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.GigaBash {
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    left: 517px;
+    top: 2269px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+}
+
+.btn-12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 9px 2px 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 34px;
+    height: 20px;
+    left: 608px;
+    top: 2288px;
+
+    background: #2681FF;
+    box-shadow: 0px 0px 10px rgba(161, 252, 131, 0.15);
+    border-radius: 4px;
+}
+
+.price12 {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 518px;
+    top: 2299px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    text-decoration-line: line-through;
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
+
+.discounted-price12 {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 518px;
+    top: 2318px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+}
+
+.card13-img {
+    position: absolute;
+    width: 145px;
+    height: 182px;
+    left: 976px;
+    top: 1805px;
+
+    background: url(image.png);
+    border-radius: 5px;
+}
+
+.window13 {
+    position: absolute;
+
+    left: 1498px;
+    top: 1819px;
+    bottom: 12.25%;
+}
+
+.NOVONAEPIC13 {
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 1145px;
+    top: 1826px;
+
+    background: #202020;
+    border-radius: 1px;
+}
+
+.NOVONAEPIC13-text {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 1156px;
+    top: 1813px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 30px;
+    /* identical to box height, or 429% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.Farcry6 {
+    position: absolute;
+    width: 64px;
+    height: 30px;
+    left: 1145px;
+    top: 1857px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+}
+
+.btn-13 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 9px 2px 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 34px;
+    height: 20px;
+    left: 1225px;
+    top: 1876px;
+
+    background: #2681FF;
+    box-shadow: 0px 0px 10px rgba(161, 252, 131, 0.15);
+    border-radius: 4px;
+}
+
+.price13 {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 1145px;
+    top: 1887px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    text-decoration-line: line-through;
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
+
+.discounted-price13 {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 1145px;
+    top: 1906px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+}
+
+.card14-img {
+    position: absolute;
+    width: 145px;
+    height: 182px;
+    left: 975px;
+    top: 2010px;
+
+    background: url(image.png);
+    border-radius: 5px;
+}
+
+.window14 {
+    position: absolute;
+
+    left: 1498px;
+
+    top: 2025px;
+    bottom: 12.25%;
+}
+
+
+.NOVONAEPIC14 {
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 1145px;
+    top: 2032px;
+
+    background: #202020;
+    border-radius: 1px;
+}
+
+.NOVONAEPIC14-text {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 1156px;
+    top: 2019px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 30px;
+    /* identical to box height, or 429% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.RetreatToEnen {
+    position: absolute;
+    width: 123px;
+    height: 30px;
+    left: 1145px;
+    top: 2060px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+}
+
+.btn-14 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 9px 2px 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 34px;
+    height: 20px;
+    left: 1284px;
+    top: 2080px;
+
+    background: #2681FF;
+    box-shadow: 0px 0px 10px rgba(161, 252, 131, 0.15);
+    border-radius: 4px;
+}
+
+.price14 {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 1145px;
+    top: 2094px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    text-decoration-line: line-through;
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
+
+.discounted-price14 {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 1145px;
+    top: 2113px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+}
+
+.card15-img {
+    position: absolute;
+    width: 145px;
+    height: 182px;
+    left: 976px;
+    top: 2217px;
+
+    background: url(image.png);
+    border-radius: 5px;
+}
+
+.window15 {
+    position: absolute;
+
+    left: 1498px;
+
+    top: 2236px;
+    bottom: 12.25%;
+
+}
+
+.NOVONAEPIC15 {
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 1145px;
+    top: 2238px;
+
+    background: #202020;
+    border-radius: 1px;
+}
+
+.NOVONAEPIC15-text {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 1156px;
+    top: 2225px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 30px;
+    /* identical to box height, or 429% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.Aftergrinder {
+    position: absolute;
+    width: 96px;
+    height: 30px;
+    left: 1145px;
+    top: 2269px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+}
+
+.btn-15 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 9px 2px 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 34px;
+    height: 20px;
+    left: 1257px;
+    top: 2287px;
+
+    background: #2681FF;
+    box-shadow: 0px 0px 10px rgba(161, 252, 131, 0.15);
+    border-radius: 4px;
+}
+
+.price15 {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 1145px;
+    top: 2299px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    text-decoration-line: line-through;
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
+
+.discounted-price15 {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 1145px;
+    top: 2318px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #FFFFFF;
+}
+
+.poster1 {
+    position: absolute;
+    width: 1922px;
+    height: 537px;
+    left: 0px;
+    top: 2503px;
+
+    background: url(poster1.png);
+}
+
+.poster2 {
+    position: absolute;
+    width: 690px;
+    height: 380px;
+    left: 923px;
+    top: 61px;
+
+    background: url(poster2.png);
+    border-radius: 10px;
+}
+
+.detail {
+    position: absolute;
+    width: 905px;
+    height: 584px;
+    left: -14px;
+    top: -47px;
+
+
+}
+
+.explore {
+    position: absolute;
+    width: 438px;
+    height: 44px;
+    left: 366px;
+    top: 202px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.description10 {
+    position: absolute;
+    width: 379px;
+    height: 48px;
+    left: 366px;
+    top: 262px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    color: #FFFFFF;
+}
+
+.saibamais-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+
+    position: absolute;
+    width: 174px;
+    height: 52px;
+    left: 365px;
+    top: 342px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border-radius: 4px;
+}
+
+.saibamais-text {
+    width: 92px;
+    height: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #02010B;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.arrow-right2 {
+    position: absolute;
+    left: 182px;
+    top: 31.99px;
+    bottom: -25.06%;
+}
+
+.logo2 {
+    position: absolute;
+    width: 58px;
+    height: 59px;
+    left: 346px;
+    top: 3090px;
+}
+
+.logo3 {
+    position: absolute;
+    left: 1435px;
+    top: 3111px;
+
+}
+
+.logo4 {
+    position: absolute;
+    left: 1490px;
+    top: 3112.02px;
+
+}
+
+.logo5 {
+    position: absolute;
+    left: 1545.99px;
+    top: 3113px;
+    bottom: 20.78%;
+}
+
+.line9 {
+    position: absolute;
+    width: 1216px;
+    height: 0px;
+    left: 352px;
+    top: 3181px;
+
+    border: 1px solid rgba(255, 255, 255, 0.32);
+}
+
+.Recursos {
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    left: 352px;
+    top: 3213px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+}
+
+.Apoie-um-Criador {
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 352px;
+    top: 3253px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.PublicarnaEpicGames {
+    position: absolute;
+    width: 169px;
+    height: 24px;
+    left: 352px;
+    top: 3293px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.Carreiras {
+    position: absolute;
+    width: 65px;
+    height: 24px;
+    left: 352px;
+    top: 3333px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.Empresa {
+    position: absolute;
+    width: 63px;
+    height: 24px;
+    left: 352px;
+    top: 3373px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.PolíticadeFanart {
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 561px;
+    top: 3253px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.UXResearch {
+    position: absolute;
+    width: 91px;
+    height: 24px;
+    left: 561px;
+    top: 3293px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.EULAdaLoja {
+    position: absolute;
+    width: 95px;
+    height: 24px;
+    left: 561px;
+    top: 3333px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.ServiçosOn {
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 737px;
+    top: 3253px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.RegrasdaComunidade {
+    position: absolute;
+    width: 166px;
+    height: 24px;
+    left: 737px;
+    top: 3293px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.EpicNewsroom {
+    position: absolute;
+    width: 113px;
+    height: 24px;
+    left: 738px;
+    top: 3333px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.FeitopelaEpicGames {
+    position: absolute;
+    width: 159px;
+    height: 24px;
+    left: 976px;
+    top: 3213px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+}
+
+.BattleBreakers {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    left: 978px;
+    top: 3253px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.Fortnite {
+    position: absolute;
+    width: 56px;
+    height: 24px;
+    left: 978px;
+    top: 3293px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.InfinityBlade {
+    position: absolute;
+    width: 92px;
+    height: 24px;
+    left: 976px;
+    top: 3333px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.RoboRecall {
+    position: absolute;
+    width: 85px;
+    height: 24px;
+    left: 1179px;
+    top: 3253px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.ShadowComplex {
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 1178px;
+    top: 3293px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.UnrealTournament {
+    position: absolute;
+    width: 136px;
+    height: 24px;
+    left: 1179px;
+    top: 3333px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.logo6 {
+    position: absolute;
+    width: 32px;
+    height: 32.55px;
+    left: 1495px;
+    top: 3386px;
+
+    background: url(image.png);
+    opacity: 0.8;
+}
+
+.logo7a {
+    position: absolute;
+    width: 60.63px;
+    height: 63.16px;
+    left: 1526.74px;
+    top: 3366.47px;
+
+
+}
+
+.logo7b {
+    position: absolute;
+    width: 32px;
+    height: 35.37px;
+    left: 1536px;
+    top: 3385px;
+}
+
+.line10 {
+    position: absolute;
+    width: 1216px;
+    height: 0px;
+    left: 352px;
+    top: 3429px;
+
+    border: 1px solid rgba(255, 255, 255, 0.32);
+}
+
+.copy-right {
+    position: absolute;
+    width: 1209px;
+    height: 63px;
+    left: 357px;
+    top: 3453px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+
+
+    color: rgba(255, 255, 255, 0.8);
+
+    opacity: 0.8;
+}
+
+.line11 {
+    position: absolute;
+    width: 616px;
+    height: 0px;
+    left: 640px;
+    
+    top: 2097px;
+
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    transform: rotate(90deg);
+}
